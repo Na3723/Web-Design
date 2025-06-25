@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+   <meta name="viewport" content="initial-scale=1" />
+<link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css" />
+<link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="css/tablet.css" />
+<link rel="stylesheet" media="only screen and (min-width: 961px)" href="css/desktop.css" />
+  <title>Topic of Interest – Time Travel & Outer Space</title>
+  <link rel="stylesheet" href="css/main.css" />
+  
+  <!-- Load scripts in order: jQuery → Velocity → ScrollMagic → main.js -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.2/velocity.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    #animateBox {
+      position: relative;
+      width: 240px;
+      height: 100px;
+      background-color: #e6f7ff;
+      border: 2px dashed #333;
+      margin-top: 20px;
+      padding: 10px;
+    }
+
+    img {
+      border: 2px solid #333;
+      border-radius: 10px;
+    }
+
+    #scrollBox {
+      width: 300px;
+      height: 100px;
+      background-color: #444;
+      color: white;
+      text-align: center;
+      line-height: 100px;
+      margin: 500px auto 1.5rem auto; /* top, right, bottom, left */
+    }
+
+    #scrollBox.highlight {
+      background-color: rgb(255, 255, 255);
+      color: black;
+      transition: all 0.5s ease;
+    }
+  </style>
+</head>
+
+<body class="container">
+    <header>
+      <h1>The Science of Time Travel & Outer Space</h1>
+    </header>
+<main class="columns">
+    <section class="column1">
+      <p id="factText">Click the button to reveal a scientific insight about time travel!</p>
+      <input type="button" id="factBtn" value="Reveal Time Fact" />
+    </section>
+
+    <section class="column2">
+      <img id="swapImage" src="images/space1.jpg" width="300" alt="The universe" />
+      <button id="moveBtn">Move the Box</button>
+      <p id="animateBox">Time is relative, space is vast.</p>
+    </section>
+
+    <section class="column3">
+      <p id="scrollBox">🚀 You scrolled into deep space!</p>
+    </section>
+</main>
+    <footer>
+      <p>&copy; 2025 Nelly Arjarasumpun</p>
+    </footer>
+</body>
+
+</html>

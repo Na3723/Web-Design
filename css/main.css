@@ -1,0 +1,101 @@
+/* place your CSS code here */
+/* css/main.css */
+
+/* General page styles */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fdfcfa;
+  background-image: url('../images/marble-bg.jpg'); 
+  background-size: cover;
+  background-attachment: fixed;
+  color: #333;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #4a4a4a;
+}
+
+h1, h2, h3 {
+  font-family: 'Palatino Linotype', serif;
+  color: #6a5acd;
+}
+
+/* Link styles - pastel variations */
+a:link {
+  color: #8e9fd1;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #aa9bcf;
+}
+
+a:hover {
+  color: #6a5acd;
+  background-color: #f0eefc;
+  transition: 0.3s ease;
+}
+
+a:active {
+  color: #fff;
+  background-color: #6a5acd;
+}
+
+/* Section styling for about_me.html & more_about_me.html */
+section {
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #d7cce6;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 8px rgba(170, 153, 205, 0.15);
+}
+
+/* Unique backgrounds for About Me page */
+#my_background {
+  background-color: #f6f0ff;
+}
+
+#my_interests {
+  background: linear-gradient(135deg, #f9f3ff, #fceaff);
+}
+
+/* h2 inside sections of about_me.html only */
+#my_background h2, #my_interests h2 {
+  color: #9966cc;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #ccb3e6;
+  padding-bottom: 5px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;              
+  border: 8px solid white;        
+  border-radius: 8px;            
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);  
+  max-width: 90%;                
+}
+
+#animateBox {
+  position: relative;
+}
+
+.ux-title {
+  text-align: center;
+  color: #000;
+  text-shadow: 0 1px 0 #fff, 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  text-align: center;
+  color: #000;
+  text-shadow:
+    0 1px 0 #fff,
+    0 2px 4px rgba(0, 0, 0, 0.2); /* highlight + shadow depth */
+}

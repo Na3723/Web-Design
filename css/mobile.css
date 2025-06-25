@@ -1,0 +1,33 @@
+body {
+  font-family: 'Georgia', serif;
+  background-image: url('../images/marble-bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #f4f0fa; /* pastel fallback */
+  color: #111;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  width: 95%;
+  margin: auto;
+  padding: 1rem;
+  background-color: rgba(180, 200, 255, 0.3); /* light pastel overlay */
+  border-radius: 12px;
+}
+
+header, footer {
+  background-color: rgba(120, 90, 200, 0.6); /* translucent purple-blue */
+  color: #111;
+  padding: 1.25rem;
+  text-align: center;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.column1, .column2, .column3 {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
