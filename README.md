@@ -1,16 +1,8 @@
-# Animated GIF Assignment
-
 ## Requirements
 
 ### Photoshop requirements
 
 ### Publishing requirements
-
-### Example images
-
-![Monarch butterfly](images/monarch_butterfly.gif)
-
-![Rabbit hamburger hawk](images/rabbit_hamburger_hawk.gif)
 
 ### Copy existing web site files
 
